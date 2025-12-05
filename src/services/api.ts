@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const ESP32_IP = "http://SEU_IP_AQUI"; 
+const ESP32_IP = "192.168.1.32"; 
 // Exemplo: "http://192.168.0.45"
 
 export const api = axios.create({
